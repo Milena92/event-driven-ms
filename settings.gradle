@@ -1,0 +1,6 @@
+rootProject.name = 'ms-demo'
+
+include 'discovery-service'
+include 'gateway-service'
+include 'notification-service'
+include 'user-service'
