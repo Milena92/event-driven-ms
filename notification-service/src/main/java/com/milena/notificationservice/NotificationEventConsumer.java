@@ -19,7 +19,7 @@ public class NotificationEventConsumer {
     private final EmailService emailService;
 
     @Bean
-    public Consumer<UserDto> consumer() {
+    public Consumer<UserDto> eventConsumer() {
         return user -> {
             log.info("Received new message from Kafka topic");
             Map<String, Object> model = new HashMap<>();
